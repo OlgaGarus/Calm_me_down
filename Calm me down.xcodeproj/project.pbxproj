@@ -9,21 +9,47 @@
 /* Begin PBXBuildFile section */
 		E12554042B4D518400FD86F2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E12554032B4D518400FD86F2 /* AppDelegate.swift */; };
 		E12554062B4D518400FD86F2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E12554052B4D518400FD86F2 /* SceneDelegate.swift */; };
-		E12554082B4D518400FD86F2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E12554072B4D518400FD86F2 /* ViewController.swift */; };
+		E12554082B4D518400FD86F2 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E12554072B4D518400FD86F2 /* SettingsViewController.swift */; };
 		E125540B2B4D518400FD86F2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E12554092B4D518400FD86F2 /* Main.storyboard */; };
 		E125540D2B4D518900FD86F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E125540C2B4D518900FD86F2 /* Assets.xcassets */; };
 		E12554102B4D518900FD86F2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E125540E2B4D518900FD86F2 /* LaunchScreen.storyboard */; };
+		E153FAA92B53CA8B00AF37B7 /* Дыхание.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E153FAA82B53CA8B00AF37B7 /* Дыхание.mp3 */; };
+		E153FAAB2B53CBAC00AF37B7 /* Колокольчик.wav in Resources */ = {isa = PBXBuildFile; fileRef = E153FAAA2B53CBAC00AF37B7 /* Колокольчик.wav */; };
+		E1708E462B5052E100476383 /* MeditationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1708E452B5052E100476383 /* MeditationViewController.swift */; };
+		E1708E4B2B507C3C00476383 /* Timer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1708E4A2B507C3C00476383 /* Timer.swift */; };
+		E1708E7D2B51BA7000476383 /* Вода.wav in Resources */ = {isa = PBXBuildFile; fileRef = E1708E772B51BA6F00476383 /* Вода.wav */; };
+		E1708E7E2B51BA7000476383 /* Гонг.wav in Resources */ = {isa = PBXBuildFile; fileRef = E1708E782B51BA6F00476383 /* Гонг.wav */; };
+		E1708E832B51C73D00476383 /* stop.png in Resources */ = {isa = PBXBuildFile; fileRef = E1708E802B51C73C00476383 /* stop.png */; };
+		E1708E842B51C73D00476383 /* pause.png in Resources */ = {isa = PBXBuildFile; fileRef = E1708E812B51C73C00476383 /* pause.png */; };
+		E1708E852B51C73D00476383 /* play.png in Resources */ = {isa = PBXBuildFile; fileRef = E1708E822B51C73C00476383 /* play.png */; };
+		E1708E872B51D33E00476383 /* next.png in Resources */ = {isa = PBXBuildFile; fileRef = E1708E862B51D33E00476383 /* next.png */; };
+		E1708E8B2B53064D00476383 /* Белый Шум.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E1708E882B53064C00476383 /* Белый Шум.mp3 */; };
+		E1708E8C2B53064D00476383 /* Дождь.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E1708E892B53064C00476383 /* Дождь.mp3 */; };
+		E1708E8D2B53064D00476383 /* Музыка.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E1708E8A2B53064C00476383 /* Музыка.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E12554002B4D518400FD86F2 /* Calm me down.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Calm me down.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E12554032B4D518400FD86F2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E12554052B4D518400FD86F2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		E12554072B4D518400FD86F2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E12554072B4D518400FD86F2 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		E125540A2B4D518400FD86F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E125540C2B4D518900FD86F2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E125540F2B4D518900FD86F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E12554112B4D518900FD86F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E153FAA82B53CA8B00AF37B7 /* Дыхание.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Дыхание.mp3"; sourceTree = "<group>"; };
+		E153FAAA2B53CBAC00AF37B7 /* Колокольчик.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Колокольчик.wav"; sourceTree = "<group>"; };
+		E1708E452B5052E100476383 /* MeditationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeditationViewController.swift; sourceTree = "<group>"; };
+		E1708E4A2B507C3C00476383 /* Timer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Timer.swift; sourceTree = "<group>"; };
+		E1708E772B51BA6F00476383 /* Вода.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Вода.wav"; sourceTree = "<group>"; };
+		E1708E782B51BA6F00476383 /* Гонг.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Гонг.wav"; sourceTree = "<group>"; };
+		E1708E802B51C73C00476383 /* stop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stop.png; sourceTree = "<group>"; };
+		E1708E812B51C73C00476383 /* pause.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pause.png; sourceTree = "<group>"; };
+		E1708E822B51C73C00476383 /* play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = play.png; sourceTree = "<group>"; };
+		E1708E862B51D33E00476383 /* next.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = next.png; sourceTree = "<group>"; };
+		E1708E882B53064C00476383 /* Белый Шум.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Белый Шум.mp3"; sourceTree = "<group>"; };
+		E1708E892B53064C00476383 /* Дождь.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Дождь.mp3"; sourceTree = "<group>"; };
+		E1708E8A2B53064C00476383 /* Музыка.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Музыка.mp3"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,16 +82,85 @@
 		E12554022B4D518400FD86F2 /* Calm me down */ = {
 			isa = PBXGroup;
 			children = (
+				E1708E7F2B51C73C00476383 /* Icons */,
+				E1708E722B51BA6F00476383 /* Sounds */,
+				E1708E472B50700900476383 /* Modules */,
+				E1708E442B50489000476383 /* Views */,
 				E12554032B4D518400FD86F2 /* AppDelegate.swift */,
 				E12554052B4D518400FD86F2 /* SceneDelegate.swift */,
-				E12554072B4D518400FD86F2 /* ViewController.swift */,
-				E12554092B4D518400FD86F2 /* Main.storyboard */,
+				E1708E412B5047F300476383 /* Controllers */,
 				E125540C2B4D518900FD86F2 /* Assets.xcassets */,
 				E125540E2B4D518900FD86F2 /* LaunchScreen.storyboard */,
 				E12554112B4D518900FD86F2 /* Info.plist */,
 			);
 			path = "Calm me down";
 			sourceTree = "<group>";
+		};
+		E153FAAC2B53ED9A00AF37B7 /* Signals */ = {
+			isa = PBXGroup;
+			children = (
+				E153FAAA2B53CBAC00AF37B7 /* Колокольчик.wav */,
+				E1708E772B51BA6F00476383 /* Вода.wav */,
+				E1708E782B51BA6F00476383 /* Гонг.wav */,
+			);
+			path = Signals;
+			sourceTree = "<group>";
+		};
+		E153FAAD2B53EDAB00AF37B7 /* BackgroundMusic */ = {
+			isa = PBXGroup;
+			children = (
+				E153FAA82B53CA8B00AF37B7 /* Дыхание.mp3 */,
+				E1708E882B53064C00476383 /* Белый Шум.mp3 */,
+				E1708E892B53064C00476383 /* Дождь.mp3 */,
+				E1708E8A2B53064C00476383 /* Музыка.mp3 */,
+			);
+			path = BackgroundMusic;
+			sourceTree = "<group>";
+		};
+		E1708E412B5047F300476383 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E12554072B4D518400FD86F2 /* SettingsViewController.swift */,
+				E1708E452B5052E100476383 /* MeditationViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		E1708E442B50489000476383 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E12554092B4D518400FD86F2 /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E1708E472B50700900476383 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				E1708E4A2B507C3C00476383 /* Timer.swift */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		E1708E722B51BA6F00476383 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				E153FAAC2B53ED9A00AF37B7 /* Signals */,
+				E153FAAD2B53EDAB00AF37B7 /* BackgroundMusic */,
+			);
+			path = Sounds;
+			sourceTree = SOURCE_ROOT;
+		};
+		E1708E7F2B51C73C00476383 /* Icons */ = {
+			isa = PBXGroup;
+			children = (
+				E1708E862B51D33E00476383 /* next.png */,
+				E1708E802B51C73C00476383 /* stop.png */,
+				E1708E812B51C73C00476383 /* pause.png */,
+				E1708E822B51C73C00476383 /* play.png */,
+			);
+			path = Icons;
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -125,9 +220,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1708E832B51C73D00476383 /* stop.png in Resources */,
+				E1708E8D2B53064D00476383 /* Музыка.mp3 in Resources */,
+				E153FAAB2B53CBAC00AF37B7 /* Колокольчик.wav in Resources */,
 				E12554102B4D518900FD86F2 /* LaunchScreen.storyboard in Resources */,
+				E1708E842B51C73D00476383 /* pause.png in Resources */,
+				E1708E852B51C73D00476383 /* play.png in Resources */,
 				E125540D2B4D518900FD86F2 /* Assets.xcassets in Resources */,
+				E1708E7D2B51BA7000476383 /* Вода.wav in Resources */,
+				E1708E8B2B53064D00476383 /* Белый Шум.mp3 in Resources */,
+				E1708E7E2B51BA7000476383 /* Гонг.wav in Resources */,
 				E125540B2B4D518400FD86F2 /* Main.storyboard in Resources */,
+				E1708E872B51D33E00476383 /* next.png in Resources */,
+				E153FAA92B53CA8B00AF37B7 /* Дыхание.mp3 in Resources */,
+				E1708E8C2B53064D00476383 /* Дождь.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,9 +244,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E12554082B4D518400FD86F2 /* ViewController.swift in Sources */,
+				E12554082B4D518400FD86F2 /* SettingsViewController.swift in Sources */,
 				E12554042B4D518400FD86F2 /* AppDelegate.swift in Sources */,
 				E12554062B4D518400FD86F2 /* SceneDelegate.swift in Sources */,
+				E1708E4B2B507C3C00476383 /* Timer.swift in Sources */,
+				E1708E462B5052E100476383 /* MeditationViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -290,11 +398,15 @@
 				DEVELOPMENT_TEAM = BNR577V759;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Calm me down/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Calm me down";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,9 +414,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.olgagarus.Calm-me-down";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -318,11 +433,15 @@
 				DEVELOPMENT_TEAM = BNR577V759;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Calm me down/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Calm me down";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -330,9 +449,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.olgagarus.Calm-me-down";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
